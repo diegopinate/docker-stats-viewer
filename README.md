@@ -4,6 +4,8 @@ A simple web-based tool to visualize Docker container statistics in real-time wi
 
 Created using Copilot 🤖
 
+![Docker Stats Viewer Dashboard](./images/viewer.png)
+
 ## Features
 
 - Real-time monitoring of Docker container statistics
