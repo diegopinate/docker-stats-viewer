@@ -1,4 +1,4 @@
-# Docker Container Stats Viewer
+# Docker Stats Viewer
 
 A simple web-based tool to visualize Docker container statistics in real-time without requiring Docker Desktop.
 
