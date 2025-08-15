@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Container Stats Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>🐳 Docker Container Stats Viewer</h1>
+        <p>Real-time monitoring of your Docker containers</p>
+    </div>
+
+    <div id="loading" class="loading">
+        Loading containers...
+    </div>
+
+    <div id="error" class="error" style="display: none;"></div>
+
+    <div id="containers" class="container-list"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
